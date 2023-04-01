@@ -1,9 +1,8 @@
 [package]
-name = "crazy_wasm_analyzer"
+name = "crazy_wasm_runtime"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-wasmbin = { version = "0.6.0", features = ["extended-name-section"] }
